@@ -1,7 +1,7 @@
 {
   "version": "2026-10-26",
   "updated": "26/10/2026",
-  "source": "Tự tổng hợp: Nghị quyết 204/2025/QH15 và Nghị định 174/2025/NĐ-CP (VAT 8% đến 31/12/2026); thông báo phí giao dịch 6% của Shopee (01/05/2026) và TikTok Shop (09/05/2026)",
+  "source": "Tự tổng hợp: NQ 204/2025/QH15 và NĐ 174/2025/NĐ-CP (VAT 8% đến 31/12/2026); Nghị quyết giảm 30% thuế TNDN/TNCN kỳ 2026-2027 (Quốc hội thông qua 24/8/2026, VOV/hatinh.gov.vn, lsvn.vn); thông báo phí giao dịch 6% của Shopee (01/05/2026) và TikTok Shop (09/05/2026)",
   "_ghi_chu": "Chỉ các ô có trong mục values mới bị thay đổi. Xóa dòng nào bạn muốn tự nhập. Xem bảng tên ô trong HUONG_DAN_XCODE.md.",
   "values": {
     "vat": 8,
@@ -11,10 +11,33 @@
     "t_fix": 3000
   },
   "notes": [
-    "VAT 8% áp dụng đến hết 31/12/2026; từ 2027 nhiều khả năng về 10% nếu không gia hạn.",
+    "VAT 8% áp dụng đến hết 31/12/2026; đến 26/10/2026 chưa có văn bản gia hạn, từ 01/01/2027 sẽ về 10% nếu không gia hạn.",
     "Shopee: phí giao dịch 6% từ 01/05/2026; phí cố định theo ngành, đã gồm VAT; phí hạ tầng 3.000 đ/đơn.",
     "TikTok Shop: phí giao dịch 6% từ 09/05/2026; hoa hồng nền tảng theo ngành; phí xử lý đơn 3.000 đ/đơn.",
     "Thuế TNDN: 15% / 17% / 20% theo doanh thu năm trước liền kề. Hỏi kế toán về trường hợp riêng.",
+    "Doanh nghiệp doanh thu năm không quá 10 tỷ đồng được giảm 30% số thuế TNDN phải nộp cho kỳ 2026 và 2027 (hiệu lực 24/8/2026). Ô cit không tự đổi, tự tính nếu đủ điều kiện.",
     "Thuế nhập khẩu theo mã HS; phí đại lý và cước lấy theo báo giá thực tế."
+  ],
+  "news": [
+    {
+      "when": "Thuế · hiệu lực 24/08/2026",
+      "title": "Giảm 30% thuế TNDN cho doanh nghiệp doanh thu đến 10 tỷ",
+      "text": "Quốc hội đã thông qua nghị quyết giảm 30% số thuế TNDN phải nộp kỳ 2026 và 2027 cho doanh nghiệp có doanh thu năm không quá 10 tỷ đồng; cá nhân kinh doanh cùng ngưỡng cũng được giảm 30% thuế TNCN. Nguồn: VOV qua Cổng TTĐT Hà Tĩnh (https://hatinh.gov.vn/vi/bai-viet/quoc-hoi-chot-giam-30-thue-cho-ca-nhan-doanh-nghiep-doanh-thu-duoi-10-ty-dong), Luật sư Việt Nam (https://lsvn.vn/chinh-thuc-giam-30-thue-thu-nhap-cho-ca-nhan-kinh-doanh-doanh-nghiep-trong-ky-tinh-thue-2026-2027-a178093.html)."
+    },
+    {
+      "when": "Thuế · hết hạn 31/12/2026",
+      "title": "VAT 8% chưa có tin gia hạn sang 2027",
+      "text": "Mức giảm VAT còn 8% theo Nghị quyết 204/2025/QH15 kết thúc ngày 31/12/2026. Đến nay chưa thấy nghị quyết nào gia hạn, nên nếu không có văn bản mới thì từ 01/01/2027 thuế suất về 10%. Nguồn: Báo Chính phủ (https://en.baochinhphu.vn/print/govt-proposes-extension-of-vat-cut-till-next-years-end-111250423220941466.htm), Lookuptax (https://lookuptax.com/tax-changes/vietnam/8pc-reduced-rate-ends-2026)."
+    },
+    {
+      "when": "TikTok Shop · từ 09/05/2026",
+      "title": "TikTok Shop tăng hoa hồng nhiều ngành",
+      "text": "Từ 9/5/2026, TikTok Shop tăng hoa hồng cố định phần lớn ngành khoảng 0,5–3,3%, có ngành lên tới 17,8%; bài báo không nêu riêng ngành Thể thao & Dã ngoại, cần xem Seller Center. Nguồn: Báo Pháp luật VN (https://doanhnhan.baophapluat.vn/cuoc-dua-thuong-mai-dien-tu-nong-len-shopee-giam-phi-ho-tro-nha-ban-tiktok-shop-tang-hoa-hong.html)."
+    },
+    {
+      "when": "Shopee · từ 05/2026",
+      "title": "Shopee điều chỉnh phí cố định, hoãn phí Duy trì hiển thị",
+      "text": "Shopee tăng phí cố định một số ngành khoảng 0,5–3% từ tháng 5/2026 và giảm ở vài ngành tiêu dùng. Chương trình Duy trì hiển thị (trích 1% doanh thu) dự kiến 29/5/2026 đã được Shopee đề xuất hoãn sau yêu cầu của Ủy ban Cạnh tranh Quốc gia. Nguồn: Bộ Công Thương (https://moit.gov.vn/tin-tuc/uy-ban-canh-tranh-quoc-gia-yeu-cau-shopee-khong-ap-dung-cac-loai-phi-moi-doi-voi-nguoi-ban-hang.html)."
+    }
   ]
 }
