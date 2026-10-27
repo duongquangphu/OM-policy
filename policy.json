@@ -1,7 +1,7 @@
 {
-  "version": "2026-10-26",
-  "updated": "26/10/2026",
-  "source": "Tự tổng hợp: NQ 204/2025/QH15 và NĐ 174/2025/NĐ-CP (VAT 8% đến 31/12/2026); Nghị quyết giảm 30% thuế TNDN/TNCN kỳ 2026-2027 (Quốc hội thông qua 24/8/2026, VOV/hatinh.gov.vn, lsvn.vn); thông báo phí giao dịch 6% của Shopee (01/05/2026) và TikTok Shop (09/05/2026)",
+  "version": "2026-10-27",
+  "updated": "27/10/2026",
+  "source": "Tự tổng hợp: NQ 204/2025/QH15 và NĐ 174/2025/NĐ-CP (VAT 8% đến 31/12/2026); Nghị quyết giảm 30% thuế TNDN/TNCN kỳ 2026-2027 (Quốc hội thông qua 24/8/2026, VOV/hatinh.gov.vn, lsvn.vn); thông báo phí giao dịch 6% của Shopee (01/05/2026) và TikTok Shop (09/05/2026); phí vận hành logistics TikTok Shop cho kiện trên 10 kg từ 12/10/2026 (Người Quan Sát, CafeF)",
   "_ghi_chu": "Chỉ các ô có trong mục values mới bị thay đổi. Xóa dòng nào bạn muốn tự nhập. Xem bảng tên ô trong HUONG_DAN_XCODE.md.",
   "values": {
     "vat": 8,
@@ -11,14 +11,19 @@
     "t_fix": 3000
   },
   "notes": [
-    "VAT 8% áp dụng đến hết 31/12/2026; đến 26/10/2026 chưa có văn bản gia hạn, từ 01/01/2027 sẽ về 10% nếu không gia hạn.",
+    "VAT 8% áp dụng đến hết 31/12/2026; đến 27/10/2026 chưa có văn bản gia hạn, từ 01/01/2027 sẽ về 10% nếu không gia hạn.",
     "Shopee: phí giao dịch 6% từ 01/05/2026; phí cố định theo ngành, đã gồm VAT; phí hạ tầng 3.000 đ/đơn.",
-    "TikTok Shop: phí giao dịch 6% từ 09/05/2026; hoa hồng nền tảng theo ngành; phí xử lý đơn 3.000 đ/đơn.",
+    "TikTok Shop: phí giao dịch 6% từ 09/05/2026; hoa hồng theo ngành; phí xử lý đơn 3.000 đ/đơn; từ 12/10/2026 thêm phí logistics 3.000–65.000 đ/kiện cho kiện trên 10 kg (chưa có trong ô t_fix).",
     "Thuế TNDN: 15% / 17% / 20% theo doanh thu năm trước liền kề. Hỏi kế toán về trường hợp riêng.",
     "Doanh nghiệp doanh thu năm không quá 10 tỷ đồng được giảm 30% số thuế TNDN phải nộp cho kỳ 2026 và 2027 (hiệu lực 24/8/2026). Ô cit không tự đổi, tự tính nếu đủ điều kiện.",
     "Thuế nhập khẩu theo mã HS; phí đại lý và cước lấy theo báo giá thực tế."
   ],
   "news": [
+    {
+      "when": "TikTok Shop · từ 12/10/2026",
+      "title": "Phí vận hành logistics cho kiện hàng trên 10 kg",
+      "text": "TikTok Shop thu thêm của người bán phí vận hành logistics cho mỗi kiện nặng trên 10 kg, từ 3.000 đ (mốc 10 kg) tăng theo từng 0,5 kg tới tối đa 65.000 đ/kiện từ 20,5 kg; phí chưa gồm thuế và không hoàn lại khi đơn bị trả hàng sau giao thành công. Hàng camping cồng kềnh (lều, bàn ghế) nên kiểm tra mục 'Đã quyết toán' trong Seller Center. Nguồn: Người Quan Sát (https://nguoiquansat.vn/tu-sau-ngay-12-10-tiktok-shop-se-thu-them-toi-65-000d-don-hang-318434.html), CafeF (https://cafef.vn/vi-sao-nha-ban-than-phi-nhung-khong-dam-roi-san-188261012151233405.chn)."
+    },
     {
       "when": "Thuế · hiệu lực 24/08/2026",
       "title": "Giảm 30% thuế TNDN cho doanh nghiệp doanh thu đến 10 tỷ",
