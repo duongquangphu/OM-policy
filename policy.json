@@ -1,7 +1,7 @@
 {
-  "version": "2026-10-27",
-  "updated": "27/10/2026",
-  "source": "Tự tổng hợp: NQ 204/2025/QH15 và NĐ 174/2025/NĐ-CP (VAT 8% đến 31/12/2026); Nghị quyết giảm 30% thuế TNDN/TNCN kỳ 2026-2027 (Quốc hội thông qua 24/8/2026, VOV/hatinh.gov.vn, lsvn.vn); thông báo phí giao dịch 6% của Shopee (01/05/2026) và TikTok Shop (09/05/2026); phí vận hành logistics TikTok Shop cho kiện trên 10 kg từ 12/10/2026 (Người Quan Sát, CafeF)",
+  "version": "2026-11-08",
+  "updated": "08/11/2026",
+  "source": "Tự tổng hợp: NQ 204/2025/QH15 và NĐ 174/2025/NĐ-CP (VAT 8% đến 31/12/2026); Nghị quyết 43/2026/QH16 và Nghị định 398/2026/NĐ-CP ngày 29/10/2026 về giảm 30% thuế TNDN/TNCN kỳ 2026-2027 (Thời báo Tài chính, Báo Văn hóa); thông báo phí giao dịch 6% của Shopee (01/05/2026) và TikTok Shop (09/05/2026); phí vận hành logistics TikTok Shop cho kiện trên 10 kg từ 12/10/2026 (Người Quan Sát, CafeF)",
   "_ghi_chu": "Chỉ các ô có trong mục values mới bị thay đổi. Xóa dòng nào bạn muốn tự nhập. Xem bảng tên ô trong HUONG_DAN_XCODE.md.",
   "values": {
     "vat": 8,
@@ -11,11 +11,11 @@
     "t_fix": 3000
   },
   "notes": [
-    "VAT 8% áp dụng đến hết 31/12/2026; đến 27/10/2026 chưa có văn bản gia hạn, từ 01/01/2027 sẽ về 10% nếu không gia hạn.",
+    "VAT 8% áp dụng đến hết 31/12/2026; đến 08/11/2026 chưa có văn bản gia hạn, từ 01/01/2027 sẽ về 10% nếu không gia hạn.",
     "Shopee: phí giao dịch 6% từ 01/05/2026; phí cố định theo ngành, đã gồm VAT; phí hạ tầng 3.000 đ/đơn.",
     "TikTok Shop: phí giao dịch 6% từ 09/05/2026; hoa hồng theo ngành; phí xử lý đơn 3.000 đ/đơn; từ 12/10/2026 thêm phí logistics 3.000–65.000 đ/kiện cho kiện trên 10 kg (chưa có trong ô t_fix).",
     "Thuế TNDN: 15% / 17% / 20% theo doanh thu năm trước liền kề. Hỏi kế toán về trường hợp riêng.",
-    "Doanh nghiệp doanh thu năm không quá 10 tỷ đồng được giảm 30% số thuế TNDN phải nộp cho kỳ 2026 và 2027 (hiệu lực 24/8/2026). Ô cit không tự đổi, tự tính nếu đủ điều kiện.",
+    "Doanh nghiệp doanh thu năm không quá 10 tỷ đồng được giảm 30% số thuế TNDN phải nộp kỳ 2026 và 2027 (NQ 43/2026/QH16; hướng dẫn tại NĐ 398/2026/NĐ-CP ngày 29/10/2026). Ô cit không tự đổi, tự tính nếu đủ điều kiện.",
     "Thuế nhập khẩu theo mã HS; phí đại lý và cước lấy theo báo giá thực tế."
   ],
   "news": [
@@ -25,14 +25,14 @@
       "text": "TikTok Shop thu thêm của người bán phí vận hành logistics cho mỗi kiện nặng trên 10 kg, từ 3.000 đ (mốc 10 kg) tăng theo từng 0,5 kg tới tối đa 65.000 đ/kiện từ 20,5 kg; phí chưa gồm thuế và không hoàn lại khi đơn bị trả hàng sau giao thành công. Hàng camping cồng kềnh (lều, bàn ghế) nên kiểm tra mục 'Đã quyết toán' trong Seller Center. Nguồn: Người Quan Sát (https://nguoiquansat.vn/tu-sau-ngay-12-10-tiktok-shop-se-thu-them-toi-65-000d-don-hang-318434.html), CafeF (https://cafef.vn/vi-sao-nha-ban-than-phi-nhung-khong-dam-roi-san-188261012151233405.chn)."
     },
     {
-      "when": "Thuế · hiệu lực 24/08/2026",
-      "title": "Giảm 30% thuế TNDN cho doanh nghiệp doanh thu đến 10 tỷ",
-      "text": "Quốc hội đã thông qua nghị quyết giảm 30% số thuế TNDN phải nộp kỳ 2026 và 2027 cho doanh nghiệp có doanh thu năm không quá 10 tỷ đồng; cá nhân kinh doanh cùng ngưỡng cũng được giảm 30% thuế TNCN. Nguồn: VOV qua Cổng TTĐT Hà Tĩnh (https://hatinh.gov.vn/vi/bai-viet/quoc-hoi-chot-giam-30-thue-cho-ca-nhan-doanh-nghiep-doanh-thu-duoi-10-ty-dong), Luật sư Việt Nam (https://lsvn.vn/chinh-thuc-giam-30-thue-thu-nhap-cho-ca-nhan-kinh-doanh-doanh-nghiep-trong-ky-tinh-thue-2026-2027-a178093.html)."
+      "when": "Thuế · NĐ 398/2026 ban hành 29/10/2026",
+      "title": "Đã có nghị định hướng dẫn giảm 30% thuế TNDN cho DN doanh thu đến 10 tỷ",
+      "text": "Chính phủ ban hành Nghị định 398/2026/NĐ-CP ngày 29/10/2026 hướng dẫn Nghị quyết 43/2026/QH16: doanh nghiệp và cá nhân kinh doanh có doanh thu năm không quá 10 tỷ đồng được giảm 30% số thuế thu nhập phải nộp cho kỳ tính thuế 2026 và 2027. Nên nhờ kế toán xác nhận điều kiện áp dụng. Nguồn: Thời báo Tài chính VN (https://thoibaotaichinhvietnam.vn/huong-dan-giam-30-thue-thu-nhap-doi-voi-ca-nhan-doanh-nghiep-co-doanh-thu-khong-qua-10-ty-dong-206205.html), Báo Văn hóa (https://baovanhoa.vn/nhung-chinh-sach-uu-dai-thue-nao-co-the-thay-doi-tu-1-1-2027.html)."
     },
     {
       "when": "Thuế · hết hạn 31/12/2026",
       "title": "VAT 8% chưa có tin gia hạn sang 2027",
-      "text": "Mức giảm VAT còn 8% theo Nghị quyết 204/2025/QH15 kết thúc ngày 31/12/2026. Đến nay chưa thấy nghị quyết nào gia hạn, nên nếu không có văn bản mới thì từ 01/01/2027 thuế suất về 10%. Nguồn: Báo Chính phủ (https://en.baochinhphu.vn/print/govt-proposes-extension-of-vat-cut-till-next-years-end-111250423220941466.htm), Lookuptax (https://lookuptax.com/tax-changes/vietnam/8pc-reduced-rate-ends-2026)."
+      "text": "Mức giảm VAT còn 8% theo Nghị quyết 204/2025/QH15 kết thúc ngày 31/12/2026. Đến 08/11/2026 vẫn chưa có văn bản gia hạn; Báo Văn hóa (8/11/2026) cho biết nếu không có chính sách thay thế thì từ 01/01/2027 thuế suất về 10%. Nguồn: Báo Văn hóa (https://baovanhoa.vn/nhung-chinh-sach-uu-dai-thue-nao-co-the-thay-doi-tu-1-1-2027.html), Báo Chính phủ (https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-204-2025-qh15-ve-giam-thue-gia-tri-gia-tang-119250628082120511.htm)."
     },
     {
       "when": "TikTok Shop · từ 09/05/2026",
